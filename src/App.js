@@ -1,9 +1,10 @@
 import './App.css';
-import Header from './header.component';
+import Main from './components/main.component';
 function App() {
   return (
     <div>
-      <Header></Header>
+      <h1>Cryptocurrency Price Checker</h1>
+      <Main></Main>
     </div>
   );
 }
